@@ -1,0 +1,110 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            /* background color */
+            <mj-class name="dark-bg" background-color="#000" />
+            <mj-class name="light-tx" color="#fff" />
+
+            /* font styles */
+
+            <mj-class name="h-1" align="center" font-size="28px" line-height="33px" font-family="Neue Helvetica,helvetica,sans-serif" font-weight="regular" text-transform="uppercase"/>
+            <mj-class name="h-2" align="center" font-size="25px" line-height="28px" font-family="Neue Helvetica,helvetica,sans-serif" text-transform="uppercase"/>
+            <mj-class name="h-3" align="center" font-size="16px" line-height="21px" font-family="Neue Helvetica,helvetica,sans-serif" text-transform="uppercase" align="center"/>
+            <mj-class name="p-1" font-size="16px" line-height="18px" font-family="Monotype Garamond,garamond,serif"/>
+            <mj-class name="p-2" font-size="16px" line-height="18px" font-weight="bold" font-family="Monotype Garamond,garamond,serif"/>
+
+            <mj-class name="center" text-align="center"/>
+        
+            /* MJML Attributes */
+            <mj-button border-radius="0" font-size="16px" text-transform="uppercase" font-family="Neue Helvetica,helvetica,sans-serif" font-weight="bold" padding="0" inner-padding="15px 40px">    
+            </mj-button>
+            <mj-image padding="0"/>
+            <mj-section padding="10px 0px" background-color="#fff">           
+            </mj-section>
+            <mj-style>
+                body {
+                    padding: 20px;
+                    box-sizing: border-box;
+                }
+            </mj-style>
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="#bbb">
+        <!-- logo -->
+        <mj-section>
+            <mj-column width="100%">
+                <mj-image src="https://i.ibb.co/sCtg7Q8/four-season-logo.png" alt="Four Season Logo"  width="200px" />
+            </mj-column>
+        </mj-section>
+        <!-- Hero -->
+        <mj-section background-color="#fff">
+            <mj-column width="100%">
+                <mj-text mj-class="h-1">
+                    FIND YOUR NEXT ADVENTURE CLOSE TO HOME                
+                </mj-text>
+                <mj-image src="https://i.ibb.co/285kDtF/hotel.jpg" alt="Hotel view" width="560px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text mj-class="p-1" padding="10px 40px">
+                    Marilia, pack a bag and grab your keys for a captivating drivable adventure around America. Discover the best views, food and wine at your own pace.
+                </mj-text>
+                <mj-button mj-class="dark-bg" padding-top="20px">
+                                       <a href="https://www.fourseasons.com/" style="color: #fff; text-decoration: none">read more</a> 
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 10px">
+            <mj-column width="100%">
+                <mj-text mj-class="h-2" padding="30px 10px">
+                    Fall  Inspiration
+                </mj-text>
+            </mj-column>
+            <mj-column width="50%" padding="10px">
+                <mj-image src="https://i.ibb.co/ZT5xbcJ/town.jpg" alt="town image" />
+                <mj-text mj-class="h-3" padding="20px 0" padding-bottom="5px">
+                    Discover must see cities
+                </mj-text>
+                <mj-text mj-class="p-1">
+                    We’ve uncovered six fall trips to get you into the mix.
+                </mj-text>
+                <mj-text mj-class="h-3">
+                    <a href="https://www.fourseasons.com/" style="color: #000">read more</a>
+                </mj-text>
+            </mj-column>
+            <mj-column width="50%" padding="10px">
+                <mj-image src="https://i.ibb.co/y6VQqTn/advanture.jpg" alt="nature image" />
+                <mj-text mj-class="h-3" padding="20px 0" padding-bottom="5px">
+                    seek advanture
+                </mj-text>
+                <mj-text mj-class="p-1">
+                    Explore new things to see, eat and do in the Northern West Coast.
+                </mj-text>
+                <mj-text mj-class="h-3">
+                    <a href="https://www.fourseasons.com/" style="color: #000">read more</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="0">
+            <mj-column width="100%" mj-class="dark-bg">
+                <mj-divider border-color="#fff" border-width="1px" padding="20px"/>
+                <mj-text mj-class="h-2 light-tx" >
+                    make time to connect
+                </mj-text>
+                <mj-text mj-class="h-3 light-tx">
+                    for a limited time
+                </mj-text>
+                <mj-text mj-class="p-2 light-tx" align="center" padding="20px">
+                    Enjoy 20% off our room rate when you book in advance, with flexible stay dates.
+                </mj-text>
+                <mj-button background-color="#fff" padding="10px">
+                    <a href="https://www.fourseasons.com/" style="color: #000; text-decoration: none">View Offer</a> 
+                </mj-button>
+                <mj-divider border-color="#fff" border-width="1px" padding="20px"/>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+
+</mjml>
